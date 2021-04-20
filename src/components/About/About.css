@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
 
 .about {
     width: 100%;
@@ -35,7 +35,7 @@
 }
 
 span {
-    font-family: 'Black Ops One', cursive;
+  font-family: 'RocknRoll One', sans-serif;
     font-size: x-large;
 }
 
@@ -78,6 +78,26 @@ span {
   animation-timing-function: cubic-bezier(.15,.41,.69,.94);
   animation-iteration-count: infinite;
 }
+
+.socialMedia {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 10px 10px 0 0;
+  width: max-content;
+  position: absolute;
+  right: 0;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+  border-bottom-left-radius: 5px;
+  background-color: rgba(255, 255, 255, .15);
+  
+  backdrop-filter: blur(5px);
+}
+
+.social-icon {
+  margin: 10px;
+}
+
 @keyframes scroll {
   0% { opacity: 0; }
   10% { transform: translateY(0); opacity: 1; }

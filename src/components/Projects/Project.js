@@ -19,6 +19,10 @@ const useStyles = makeStyles((theme) => ({
       height: 0,
       paddingTop: '56.25%', // 16:9
     },
+    cardHeader: {
+      color:'#161d6f',
+
+    },
     cardcontent: {
       marginTop: '10px',
       textAlign: 'justify',
@@ -36,7 +40,7 @@ const Project = ( {title, github, img, desc, hostLink}) => {
     return (
       
           <Card className="card">
-            <CardHeader title={title} />
+            <CardHeader className={classes.cardHeader} title={title} />
             <CardMedia
               className={classes.media}
               image={img}

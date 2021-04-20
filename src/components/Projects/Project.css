@@ -2,6 +2,7 @@
     width: 400px;
     max-width: max-content;
     margin-top: 30px;
+    background-image: linear-gradient(to top right, #ffb4b4, #a4ebf3);
 }
 
 .card-icons {
