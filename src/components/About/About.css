@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
+.about {
+    width: 100%;
+}
+
+.profile {
+    border-radius: 10px;
+    height: 270px;
+    width: 220px;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.about-name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name {
+    margin: 20px 0;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.desc {
+    font-size: large;
+}
+
+span {
+    font-family: 'Black Ops One', cursive;
+    font-size: x-large;
+}
+
+.description {
+    font-size: large;
+    background-color: black;
+    color: white;
+    padding: 3px;
+}
+
+.detail {
+  font-size: x-large;
+  margin-top: 10px;
+  width: 400px;
+  max-width: max-content;
+  text-align: justify;
+}
+
+.scroll-downs {
+  margin-top: 60px;
+  width :28px;
+  height: 40px;
+}
+.mousey {
+  width: 3px;
+  padding: 10px 15px;
+  height: 35px;
+  border: 3px solid black;
+  border-radius: 25px;
+  opacity: 0.75;
+  box-sizing: content-box;
+}
+.scroller {
+  width: 3px;
+  height: 10px;
+  border-radius: 25%;
+  background-color: black;
+  animation-name: scroll;
+  animation-duration: 2.2s;
+  animation-timing-function: cubic-bezier(.15,.41,.69,.94);
+  animation-iteration-count: infinite;
+}
+@keyframes scroll {
+  0% { opacity: 0; }
+  10% { transform: translateY(0); opacity: 1; }
+  100% { transform: translateY(15px); opacity: 0;}
+}
